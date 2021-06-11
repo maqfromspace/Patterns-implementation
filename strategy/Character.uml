@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>strategyapp.characater.Character</OriginalElement>
+  <nodes>
+    <node x="307.0" y="287.0">strategyapp.characater.King</node>
+    <node x="803.25" y="138.5">strategyapp.weapon.AxeBehaviour</node>
+    <node x="443.25" y="0.0">strategyapp.weapon.WeaponBehaviour</node>
+    <node x="625.25" y="138.5">strategyapp.weapon.SwordBehaviour</node>
+    <node x="455.0" y="287.0">strategyapp.characater.Knight</node>
+    <node x="161.0" y="287.0">strategyapp.characater.Troll</node>
+    <node x="447.25" y="138.5">strategyapp.weapon.KnifeBehaviour</node>
+    <node x="167.25" y="104.0">strategyapp.characater.Character</node>
+    <node x="0.0" y="287.0">strategyapp.characater.Queen</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="strategyapp.characater.Knight" target="strategyapp.characater.Character">
+      <point x="35.0" y="-27.0" />
+      <point x="560.0" y="247.0" />
+      <point x="411.0" y="247.0" />
+      <point x="113.75" y="61.5" />
+    </edge>
+    <edge source="strategyapp.weapon.AxeBehaviour" target="strategyapp.weapon.WeaponBehaviour">
+      <point x="0.0" y="-27.0" />
+      <point x="874.25" y="74.0" />
+      <point x="592.65" y="74.0" />
+      <point x="66.39999999999998" y="27.0" />
+    </edge>
+    <edge source="strategyapp.characater.Queen" target="strategyapp.characater.Character">
+      <point x="-35.25" y="-27.0" />
+      <point x="35.25" y="247.0" />
+      <point x="183.5" y="247.0" />
+      <point x="-113.75" y="61.5" />
+    </edge>
+    <edge source="strategyapp.characater.King" target="strategyapp.characater.Character">
+      <point x="32.0" y="-27.0" />
+      <point x="403.0" y="267.0" />
+      <point x="346.0" y="267.0" />
+      <point x="48.75" y="61.5" />
+    </edge>
+    <edge source="strategyapp.characater.Troll" target="strategyapp.characater.Character">
+      <point x="-31.5" y="-27.0" />
+      <point x="192.5" y="267.0" />
+      <point x="248.5" y="267.0" />
+      <point x="-48.75" y="61.5" />
+    </edge>
+    <edge source="strategyapp.characater.Character" target="strategyapp.weapon.WeaponBehaviour">
+      <point x="65.0" y="-61.5" />
+      <point x="362.25" y="84.0" />
+      <point x="493.05000000000007" y="84.0" />
+      <point x="-33.19999999999999" y="27.0" />
+    </edge>
+    <edge source="strategyapp.weapon.SwordBehaviour" target="strategyapp.weapon.WeaponBehaviour">
+      <point x="0.0" y="-27.0" />
+      <point x="704.25" y="84.0" />
+      <point x="559.45" y="84.0" />
+      <point x="33.200000000000045" y="27.0" />
+    </edge>
+    <edge source="strategyapp.weapon.KnifeBehaviour" target="strategyapp.weapon.WeaponBehaviour">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="455.5" y="132.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
